@@ -1,3 +1,17 @@
+# Extented Panel（Beta）
+通过蓝牙连接inmo air，将安卓手机控制面板，提供鼠标、键盘、快捷方式、组合功能等功能
+设备：inmo air
+
+## Screenshots
+
+# 效果图
+
+ <img src="/screenshot/img1.jpg" width="300">
+ <img src="/screenshot/img2.jpg" width="300">
+ <img src="/screenshot/img3.jpg" width="300">
+ <img src="/screenshot/img4.jpg" width="300">
+
+
 # 蓝牙遥控器 - 支持键盘、鼠标、影音遥控器
 
 1、支持模拟键盘、鼠标、PPT常用工具、影音遥控器等功能;  
@@ -7,35 +21,4 @@
 
 ### 注：
 如果你第一次连接不上，请重启APP连接，就像正常的蓝牙连接一样的;  
-软件需要用户授权使用定位功能（蓝牙扫描需要该权限）！
-
-
-# 企业官网
-
-<a href="http://www.wnkong.com">http://www.wnkong.com</a>
-
-
-# 技术点
-
-1、android hid api的使用;  
-2、hid 码表(<a href="https://blog.csdn.net/bona020/article/details/101289147">https://blog.csdn.net/bona020/article/details/101289147</a>);  
-3、hid 描述符(USB中文网)(<a href="http://www.usbzh.com/article/forum-10.html">http://www.usbzh.com/article/forum-10.html</a>);  
-
-
-# apk下载链接
-
-<a href="https://www.coolapk.com/apk/284649">https://www.coolapk.com/apk/284649</a>
-
-
-# 效果图
-
- <img src="https://gitee.com/taohaili/HidRemote/raw/master/img1.jpg" width="300">
- <img src="https://gitee.com/taohaili/HidRemote/raw/master/img5.jpg" width="300">
- <img src="https://gitee.com/taohaili/HidRemote/raw/master/img2.jpg" width="600">
- <img src="https://gitee.com/taohaili/HidRemote/raw/master/img3.jpg" width="300">
- <img src="https://gitee.com/taohaili/HidRemote/raw/master/img4.jpg" width="300">
-
-
-# Known Issues
-
-如果您有任何问题/疑问/错误/，请发送邮件 @1312398581@qq.com
+软件需要用户授权使用定位功能（蓝牙扫描需要该权限）

@@ -1,4 +1,4 @@
-rootProject.name='HidRemote'
+rootProject.name='ExtendedPanel'
 
 include ':app'
 include ':lib_bar'
