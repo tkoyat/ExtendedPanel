@@ -120,10 +120,6 @@ dependencies {
     implementation rootProject.ext.dependencies["gson"]
     implementation rootProject.ext.dependencies["crashreport_upgrade"]
 
-    // 友盟统计SDK
-    implementation  'com.umeng.umsdk:common:9.3.8'// 必选
-    implementation  'com.umeng.umsdk:asms:1.2.2'// 必选
-
 //    implementation 'org.litepal.guolindev:core:3.2.3'
 
     implementation project(':lib_bar')

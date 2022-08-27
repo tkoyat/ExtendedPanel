@@ -11,8 +11,8 @@ import com.android.superli.btremote.hid.HidUitls;
 import com.android.base.SharedPreferencesUtil;
 import com.android.superli.btremote.utils.Utils;
 import com.tencent.bugly.Bugly;
-import com.umeng.analytics.MobclickAgent;
-import com.umeng.commonsdk.UMConfigure;
+//import com.umeng.analytics.MobclickAgent;
+//import com.umeng.commonsdk.UMConfigure;
 
 import me.jessyan.autosize.AutoSize;
 import me.jessyan.autosize.AutoSizeConfig;
@@ -45,9 +45,9 @@ public class RemoteApplication extends App {
                     }
                 });
         Bugly.init(getApplicationContext(), "6104dc8a82", false);
-        UMConfigure.init(this, "600a687df1eb4f3f9b6c0983", "Umeng", UMConfigure.DEVICE_TYPE_PHONE, "");
-        MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.AUTO);
-        UMConfigure.setLogEnabled(false);
+//        UMConfigure.init(this, "600a687df1eb4f3f9b6c0983", "Umeng", UMConfigure.DEVICE_TYPE_PHONE, "");
+//        MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.AUTO);
+//        UMConfigure.setLogEnabled(false);
         INSTANCE = this;
 
         if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.P) {
